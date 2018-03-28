@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "target": "es6",
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "declaration": true,
+    "outDir": "dist",
+    "removeComments": false
+  },
+  "files": [
+    "lib/log-sentry.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/**.spec.ts"
+  ]
+}

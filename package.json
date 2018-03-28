@@ -1,0 +1,67 @@
+{
+  "author": "Tobias Kopelke <nox@raynode.de>",
+  "dependencies": {
+    "@types/raven": "^2.1.6",
+    "raven": "^2.4.2"
+  },
+  "peerDependencies": {
+    "@raynode/nx-logger": ">=3.1.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/faker": "^4.1.2",
+    "@types/jest": "^22.1.4",
+    "@types/node": "^9.4.6",
+    "codecov": "^3.0.0",
+    "commitizen": "^2.9.6",
+    "coveralls": "^3.0.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "faker": "^4.1.0",
+    "jest": "^22.4.2",
+    "jest-cli": "^22.4.2",
+    "semantic-release": "^15.1.4",
+    "ts-jest": "^22.4.0",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2",
+    "travis-deploy-once": "^4.4.1"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "logging",
+    "meta-logging"
+  ],
+  "license": "MIT",
+  "main": "dist/log-sentry.js",
+  "name": "@raynode/nx-logger-sentry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raynode/nx-logger-sentry"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "tslint 'lib/**/*.ts'",
+    "lint:fix": "tslint --fix 'lib/**/*.ts'",
+    "build": "rm -rf dist && tsc -p tsconfig.release.json",
+    "test": "npm run test:coverage",
+    "test-only": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "semantic-release": "semantic-release",
+    "upload": "npm publish --access public",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "posttest": "codecov -f coverage/*.json",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "types": "dist/log-sentry.d.ts",
+  "version": "0.0.0-development",
+  "optionalDependencies": {
+    "@raynode/nx-logger": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

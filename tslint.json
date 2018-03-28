@@ -1,0 +1,28 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest"],
+  "jsRules": {},
+  "rules": {
+    "no-console": false,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "curly": [true, "as-needed"],
+    "interface-name": [true, "never-prefix"],
+    "object-literal-sort-keys": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "never"],
+    "whitespace": [true,
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast",
+      "check-preblock"
+    ],
+    "trailing-comma": [true, {
+      "typeLiterals": "ignore",
+      "multiline": "always",
+      "singleline": "never"
+    }]
+  }
+}
