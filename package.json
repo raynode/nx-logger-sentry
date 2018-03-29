@@ -57,7 +57,7 @@
   "types": "dist/log-sentry.d.ts",
   "version": "0.0.0-development",
   "optionalDependencies": {
-    "@raynode/nx-logger": "^3.1.0"
+    "@raynode/nx-logger": "^4.0.0"
   },
   "config": {
     "commitizen": {
