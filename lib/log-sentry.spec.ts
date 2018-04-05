@@ -1,5 +1,6 @@
 
 import { configure, create } from '@raynode/nx-logger'
+// tslint:disable-next-line
 import * as faker from 'faker'
 
 import * as loggly from './__mocks__/raven'
