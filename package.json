@@ -2,7 +2,7 @@
   "author": "Tobias Kopelke <nox@raynode.de>",
   "dependencies": {
     "@types/raven": "^2.1.6",
-    "raven": "^2.4.2"
+    "raven": "^2.5.0"
   },
   "peerDependencies": {
     "@raynode/nx-logger": ">=3.1.0"
