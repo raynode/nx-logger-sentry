@@ -30,7 +30,8 @@
   ],
   "keywords": [
     "logging",
-    "meta-logging"
+    "meta-logging",
+    "sentry"
   ],
   "license": "MIT",
   "main": "dist/log-sentry.js",
