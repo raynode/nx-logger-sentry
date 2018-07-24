@@ -12,7 +12,7 @@
 
 nx-logger-sentry is a transport for [nx-logger](https://github.com/raynode/nx-logger)
 
-+ [TypeScript][typescript] [2.5][typescript-25] to ES6 transpilation
++ [TypeScript][typescript] [2.9][typescript-29] to ES6 transpilation
 + [TSLint][tslint] 5.x
 + [Jest][jest] unit testing and code coverage
 + Type definitions for Node.js v6.x (LTS) and Jest
@@ -67,5 +67,5 @@ MIT
 [travis-badge]: https://travis-ci.org/raynode/nx-logger-sentry.svg?branch=master
 [travis]: https://travis-ci.org/raynode/nx-logger-sentry
 [tslint]: https://palantir.github.io/tslint/
-[typescript-25]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-25
+[typescript-29]: https://github.com/Microsoft/TypeScript/wiki/What's-new-in-TypeScript#typescript-29
 [typescript]: https://www.typescriptlang.org/
