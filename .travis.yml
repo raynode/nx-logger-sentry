@@ -1,8 +1,7 @@
 language: node_js
 cache:
   directories:
-    - node_modules
-    - ~/.npm
+    - $HOME/.npm
 notifications:
   email: travisci+nx-logger-sentry@raynode.de
 node_js:
