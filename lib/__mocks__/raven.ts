@@ -1,6 +1,6 @@
 
-let createClient = () => () => null
-export const setMockCreateClient = mock => createClient = mock
+let createClient: any = () => (): any => null
+export const setMockCreateClient = (mock: any) => createClient = mock
 
 export class Client {
   private mock: any

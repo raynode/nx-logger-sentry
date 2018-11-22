@@ -7,7 +7,7 @@ export { Config, Instance, Options }
 export const createTransport = (options: string | Options | Instance): TransportFn => {
   const client = useInstanceOrCreateClient(options)
   return (configuration, messages) =>
-    client.captureMessage(formatMessage(messages), {
+    client.captureMessage(formatMessage(messages) as string, {
       tags: {
         namespace: configuration.namespace.join(','),
       },
