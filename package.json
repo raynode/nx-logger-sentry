@@ -1,7 +1,7 @@
 {
   "author": "Tobias Kopelke <nox@raynode.de>",
   "dependencies": {
-    "@types/raven": "^2.5.1",
+    "@types/raven": "^2.5.3",
     "raven": "^2.6.4"
   },
   "peerDependencies": {
@@ -9,21 +9,21 @@
   },
   "description": "",
   "devDependencies": {
-    "@types/faker": "^4.1.4",
-    "@types/jest": "^24.0.9",
-    "@types/node": "^12.0.0",
-    "codecov": "^3.1.0",
-    "commitizen": "^3.0.4",
-    "coveralls": "^3.0.2",
-    "cz-conventional-changelog": "^2.1.0",
+    "@types/faker": "^4.1.5",
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.2",
+    "codecov": "^3.5.0",
+    "commitizen": "^4.0.3",
+    "coveralls": "^3.0.6",
+    "cz-conventional-changelog": "^3.0.2",
     "faker": "^4.1.0",
-    "jest": "^24.7.1",
-    "jest-cli": "^24.1.0",
-    "semantic-release": "^15.12.1",
-    "travis-deploy-once": "^5.0.9",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "semantic-release": "^15.13.21",
+    "travis-deploy-once": "^5.0.11",
     "ts-jest": "^24.0.2",
-    "ts-node": "^8.0.2",
-    "typescript": "^3.1.6"
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
   },
   "files": [
     "dist/*"
@@ -58,7 +58,7 @@
   "types": "dist/log-sentry.d.ts",
   "version": "0.0.0-development",
   "optionalDependencies": {
-    "@raynode/nx-logger": "^6.1.1"
+    "@raynode/nx-logger": "^6.1.2"
   },
   "config": {
     "commitizen": {
